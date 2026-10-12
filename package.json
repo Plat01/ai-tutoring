@@ -1,0 +1,15 @@
+{
+  "name": "ai-tutoring",
+  "version": "1.0.0",
+  "private": true,
+  "description": "Эксперименты с MCP и учебные HTML-дашборды",
+  "scripts": {
+    "lavish": "lavish-axi"
+  },
+  "engines": {
+    "node": ">=22"
+  },
+  "devDependencies": {
+    "lavish-axi": "0.1.87"
+  }
+}

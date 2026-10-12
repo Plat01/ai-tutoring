@@ -1,0 +1,103 @@
+<!doctype html>
+<html lang="ru" data-theme="luxury">
+<head>
+  <meta charset="utf-8"><meta name="viewport" content="width=device-width, initial-scale=1">
+  <title>Разобраться в ИИ — справочник от чата до агента</title>
+  <meta name="description" content="40 базовых понятий об ИИ, интерфейсах, контексте, проектах, API, навыках и MCP. Объяснения для взрослого новичка с официальными источниками.">
+  <link rel="stylesheet" href="assets/vendor/daisyui.css">
+  <link rel="stylesheet" href="assets/vendor/themes.css">
+  <script src="assets/vendor/tailwind.js"></script>
+  <link rel="stylesheet" href="assets/style.css">
+  <script src="assets/content.js" defer></script><script src="assets/app.js" defer></script>
+</head>
+<body>
+<a class="skip" href="#main">Перейти к содержанию</a>
+<div class="layout">
+  <aside class="sidebar">
+    <a class="brand" href="#overview"><span class="brand-icon" aria-hidden="true">aı</span><span>АЗБУКА ИИ<small>от чата до агента</small></span></a>
+    <nav aria-label="Разделы справочника" class="nav">
+      <a href="#overview" class="nav-link active"><span>01</span> Общая картина</a>
+      <a href="#dictionary" class="nav-link"><span>02</span> Словарь понятий</a>
+      <a href="#differences" class="nav-link"><span>03</span> Похожие, но разные</a>
+      <a href="#practice" class="nav-link"><span>04</span> Попробовать</a>
+    </nav>
+    <div class="side-note"><span class="eyebrow">ВАШ МАРШРУТ</span><p>Начните с общей картины.<br>Затем ищите термины<br>и проверяйте понимание.</p></div>
+    <div class="sidebar-bottom"><button id="theme" class="btn btn-outline btn-sm">Светлая тема</button><small>Для взрослого новичка<br>Проверено 12 октября 2026</small></div>
+  </aside>
+  <main id="main">
+    <section id="overview" aria-labelledby="hero-title">
+      <div class="topline"><span class="eyebrow">ПОНЯТНО · С НУЛЯ · С ПРИМЕРАМИ</span><a class="link quiet" href="#dictionary">40 понятий ↓</a></div>
+      <div class="hero-grid">
+        <div>
+          <h1 id="hero-title">Разобраться в ИИ.<br><em>От чата до агента.</em></h1>
+          <p class="lead">Приложение, модель, инструменты и файлы — разные части одной работы. Этот справочник поможет понять, какую роль играет каждая.</p>
+          <p class="goal"><strong>После знакомства:</strong> вы сможете объяснить, где общаетесь с ИИ, с чем он работает и что ему нужно для выполнения задачи.</p>
+          <div class="hero-actions"><a href="#dictionary" class="btn btn-primary">Открыть словарь</a><a href="#differences" class="btn btn-ghost">Разобрать различия ↗</a></div>
+        </div>
+        <figure class="figure-panel">
+          <svg viewBox="0 0 390 350" role="img" aria-labelledby="map-title map-desc">
+            <title id="map-title">От задачи к результату</title><desc id="map-desc">Пользователь задаёт цель приложению. Модель обрабатывает запрос, а доступные инструменты могут выполнять действия. Приложение возвращает результат.</desc>
+            <defs><marker id="arrow" viewBox="0 0 8 8" refX="7" refY="4" markerWidth="6" markerHeight="6" orient="auto"><path d="M0 0L8 4L0 8" fill="currentColor"/></marker></defs>
+            <g id="map-user"><title>Пользователь описывает цель</title><rect class="svg-box" x="102" y="8" width="186" height="51" rx="12"/><text x="195" y="40" text-anchor="middle">Вы задаёте цель</text></g>
+            <path id="map-task" d="M195 59V87" marker-end="url(#arrow)" class="svg-line"><title>Задача передаётся приложению</title></path>
+            <g id="map-app"><title>Приложение организует взаимодействие</title><rect class="svg-surface" x="15" y="91" width="360" height="166" rx="18"/><text x="34" y="122" class="svg-muted">ПРИЛОЖЕНИЕ · ChatGPT / Codex</text></g>
+            <g id="map-model"><title>Модель обрабатывает информацию</title><rect class="svg-accent" x="33" y="141" width="150" height="91" rx="12"/><text x="108" y="172" text-anchor="middle" font-weight="700">Модель</text><text x="108" y="199" text-anchor="middle" class="svg-small">обрабатывает запрос</text></g>
+            <path id="map-toolcall" d="M184 177H205" marker-end="url(#arrow)" class="svg-line"><title>При необходимости вызывается инструмент</title></path>
+            <g id="map-tools"><title>Доступные инструменты выполняют операции</title><rect class="svg-box" x="208" y="141" width="150" height="91" rx="12"/><text x="283" y="172" text-anchor="middle" font-weight="700">Инструменты</text><text x="283" y="199" text-anchor="middle" class="svg-small">выполняют действия</text></g>
+            <path id="map-output" d="M195 258V286" marker-end="url(#arrow)" class="svg-line"><title>Приложение возвращает результат</title></path>
+            <g id="map-result"><title>Ответ или созданный материал</title><rect class="svg-box" x="102" y="291" width="186" height="51" rx="12"/><text x="195" y="323" text-anchor="middle">Вы получаете результат</text></g>
+          </svg>
+          <figcaption>Упрощённая схема. Набор инструментов и доступ к файлам зависят от окружения и разрешений.</figcaption>
+        </figure>
+      </div>
+      <div class="first-three">
+        <article><span class="number">01 / ГДЕ</span><h2>Интерфейс</h2><p>Браузер, приложение или терминал — способ взаимодействия с системой.</p><a href="#term-webui" class="link">Веб-интерфейс и CLI →</a></article>
+        <article><span class="number">02 / С ЧЕМ</span><h2>Контекст</h2><p>Информация, которая доступна модели сейчас: инструкции, сообщения, прочитанные данные.</p><a href="#term-context" class="link">Контекст и память →</a></article>
+        <article><span class="number">03 / КАК</span><h2>Действия</h2><p>Агент использует инструменты и инструкции, чтобы довести задачу до результата.</p><a href="#term-agent" class="link">Агент, Skill и MCP →</a></article>
+      </div>
+      <div class="route panel"><div><span class="eyebrow">ПЕРВЫЕ 10 ТЕРМИНОВ</span><p>Если всё новое, начните здесь.</p></div><div class="route-links" id="route-links"></div></div>
+    </section>
+
+    <section id="dictionary" aria-labelledby="dictionary-title">
+      <div class="section-heading"><div><span class="eyebrow">02 / НАЙТИ И ПОНЯТЬ</span><h2 id="dictionary-title">Словарь понятий</h2></div><span class="quiet">Русские и английские названия</span></div>
+      <div class="dictionary-tools panel">
+        <label for="search" class="search-label">Найти понятие</label><input id="search" class="input input-bordered" type="search" placeholder="Например: терминал, thinking effort, MCP…" autocomplete="off">
+        <div id="filters" class="filters" role="group" aria-label="Категория понятий"></div>
+        <div class="filter-footer"><span id="count" role="status" aria-live="polite"></span><button class="btn btn-ghost btn-sm" id="clear-search">Сбросить фильтры</button></div>
+      </div>
+      <div id="dictionary-grid" class="dictionary-grid"></div>
+      <div id="empty" hidden class="panel empty"><h3>Совпадений нет</h3><p>Попробуйте другой термин или сбросьте фильтры.</p></div>
+      <noscript><p class="panel">Для интерактивного словаря включите JavaScript в браузере. Объяснения также сохранены в assets/content.js.</p></noscript>
+    </section>
+
+    <section id="differences" aria-labelledby="differences-title">
+      <div class="section-heading"><div><span class="eyebrow">03 / РАЗЛИЧИТЬ РОЛИ</span><h2 id="differences-title">Похожие, но разные</h2></div></div>
+      <p class="section-intro">Выберите группу. Сравните определения и конкретные примеры в одинаковых колонках.</p>
+      <div id="comparison-picker" class="comparison-picker" role="group" aria-label="Выбрать сравнение"></div>
+      <div id="comparison" aria-live="polite"></div>
+    </section>
+
+    <section id="practice" aria-labelledby="practice-title">
+      <div class="section-heading"><div><span class="eyebrow">04 / ПОНЯТЬ ЧЕРЕЗ ДЕЙСТВИЕ</span><h2 id="practice-title">Попробовать на примерах</h2></div></div>
+      <article class="practice-panel panel" id="console-demo">
+        <div class="practice-head"><span class="badge badge-outline">Учебная симуляция</span><h3>Почему терминал и cmd — разные вещи?</h3><p>Переключите оболочку и выполните учебное действие. Окно останется тем же, а команда изменится. Файлы и команды здесь вымышленные.</p></div>
+        <div class="console-layout"><div>
+          <label for="shell-select">Оболочка</label><select id="shell-select" class="select select-bordered"><option value="bash">Bash · Linux</option><option value="powershell">PowerShell · Windows</option><option value="cmd">cmd · Windows</option></select>
+          <div class="console-actions"><button class="btn btn-outline" data-command="where">Где я?</button><button class="btn btn-outline" data-command="list">Что в папке?</button><button class="btn btn-outline" data-command="down">Войти в materials</button><button class="btn btn-outline" data-command="up">На уровень выше</button></div>
+          <p class="quiet small">Относительные пути отсчитываются от текущей папки процесса.</p><div id="console-sources" class="sources"></div>
+        </div><div class="terminal-window"><div class="terminal-heading"><span aria-hidden="true">● ● ●</span><span>Учебный терминал</span><button id="console-reset" class="btn btn-ghost btn-xs">Сброс</button></div><div class="terminal-meta">Оболочка: <strong id="shell-name"></strong><br>Текущая папка: <span id="current-dir"></span></div><div id="console-output" role="log" aria-label="Вывод учебной консоли" aria-live="polite"></div></div></div>
+      </article>
+      <article class="practice-panel panel" id="context-demo">
+        <div class="practice-head"><span class="badge badge-outline">Условные числа</span><h3>Что занимает контекстное окно?</h3><p>Окно здесь условно равно <strong>1 000 токенов</strong>. Двигайте ползунки: для входных данных, ответа и рассуждения должно хватить места.</p></div>
+        <div class="context-controls"><label for="history">История чата <output id="history-value" for="history">300</output><input id="history" type="range" class="range range-primary" min="100" max="650" step="50" value="300"></label><label for="files">Прочитанные данные <output id="files-value" for="files">200</output><input id="files" type="range" class="range range-primary" min="100" max="500" step="50" value="200"></label></div>
+        <figure><svg id="context-svg" viewBox="0 0 600 54" role="img" aria-labelledby="context-svg-title"><title id="context-svg-title">Распределение условного контекстного окна</title><defs><clipPath id="window-clip"><rect width="600" height="48" rx="8"/></clipPath></defs><rect class="svg-surface" width="600" height="48" rx="8"/><g clip-path="url(#window-clip)"><rect id="bar-instructions" y="0" height="48"/><rect id="bar-history" y="0" height="48"/><rect id="bar-files" y="0" height="48"/><rect id="bar-reserve" y="0" height="48"/></g></svg><figcaption id="context-status" role="status" aria-live="polite"></figcaption></figure>
+        <div class="context-legend"><span>① Инструкции: 100</span><span>② История: <b id="legend-history">300</b></span><span>③ Данные: <b id="legend-files">200</b></span><span>④ Резерв на ответ и рассуждение: 200</span></div>
+        <div class="practice-bottom"><button class="btn btn-outline" id="compact">Уменьшить историю</button><button class="btn btn-ghost" id="context-reset">Сброс</button></div><p class="small quiet">Уменьшение истории иллюстрирует идею сжатия. Реальное сжатие сложнее; размеры окна, лимиты ответа и учёт токенов зависят от модели. Это не калькулятор тарифа или токенизатор.</p><div id="context-sources" class="sources"></div>
+      </article>
+      <article class="practice-panel panel" id="quiz-panel"><div class="practice-head"><span class="eyebrow">ПРОВЕРИТЬ СЕБЯ</span><h3>Шесть вопросов без зубрёжки</h3><p>Выбирайте ответ и сразу читайте объяснение. Можно исправить выбор.</p></div><div id="quiz"></div><div class="quiz-bottom"><span id="quiz-score" role="status" aria-live="polite">Отвечено: 0 из 6</span><button class="btn btn-ghost" id="quiz-reset">Начать заново</button></div></article>
+    </section>
+    <footer><p>Объяснения и примеры составлены для обучения. Официальные источники указаны у каждого понятия. Названия функций, интерфейсы и доступность могут меняться; дата проверки — <strong>12.10.2026</strong>.</p><p>Начать работу: <a class="link" href="https://learn.chatgpt.com/docs/use-chatgpt" target="_blank" rel="noopener noreferrer">ChatGPT ↗</a> · <a class="link" href="https://learn.chatgpt.com/docs/codex/cli" target="_blank" rel="noopener noreferrer">Codex CLI ↗</a> · <a class="link" href="https://modelcontextprotocol.io/docs/getting-started/intro" target="_blank" rel="noopener noreferrer">MCP ↗</a></p></footer>
+  </main>
+</div>
+</body>
+</html>

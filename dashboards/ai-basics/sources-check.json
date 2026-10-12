@@ -1,0 +1,258 @@
+[
+  {
+    "id": "chat",
+    "title": "OpenAI · Use ChatGPT",
+    "url": "https://learn.chatgpt.com/docs/use-chatgpt",
+    "final_url": "https://learn.chatgpt.com/docs/use-chatgpt",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "codex",
+    "title": "OpenAI · Codex CLI",
+    "url": "https://learn.chatgpt.com/docs/codex/cli",
+    "final_url": "https://learn.chatgpt.com/docs/codex/cli",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "models",
+    "title": "OpenAI · Models",
+    "url": "https://learn.chatgpt.com/docs/models",
+    "checked_on": "2026-10-12",
+    "status": 200,
+    "final_url": "https://learn.chatgpt.com/docs/models"
+  },
+  {
+    "id": "concepts",
+    "title": "OpenAI · Key concepts",
+    "url": "https://developers.openai.com/api/docs/concepts",
+    "final_url": "https://developers.openai.com/api/docs/concepts",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "agents",
+    "title": "OpenAI · Agents",
+    "url": "https://developers.openai.com/api/docs/guides/agents",
+    "final_url": "https://developers.openai.com/api/docs/guides/agents",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "tools",
+    "title": "OpenAI · Using tools",
+    "url": "https://developers.openai.com/api/docs/guides/tools",
+    "checked_on": "2026-10-12",
+    "status": 200,
+    "final_url": "https://developers.openai.com/api/docs/guides/tools"
+  },
+  {
+    "id": "prompting",
+    "title": "OpenAI · Prompt engineering",
+    "url": "https://developers.openai.com/api/docs/guides/prompt-engineering",
+    "checked_on": "2026-10-12",
+    "status": 200,
+    "final_url": "https://developers.openai.com/api/docs/guides/prompt-engineering"
+  },
+  {
+    "id": "projects",
+    "title": "OpenAI · Projects and chats",
+    "url": "https://learn.chatgpt.com/docs/projects",
+    "final_url": "https://learn.chatgpt.com/docs/projects",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "workspace",
+    "title": "VS Code · Workspaces",
+    "url": "https://code.visualstudio.com/docs/editing/workspaces/workspaces",
+    "final_url": "https://code.visualstudio.com/docs/editing/workspaces/workspaces",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "linux",
+    "title": "Ubuntu · Command line for beginners",
+    "url": "https://ubuntu.com/tutorials/command-line-for-beginners",
+    "final_url": "https://ubuntu.com/tutorials/command-line-for-beginners",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "paths",
+    "title": "Python · Filesystem paths",
+    "url": "https://docs.python.org/3/library/pathlib.html",
+    "final_url": "https://docs.python.org/3/library/pathlib.html",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "web",
+    "title": "OpenAI · ChatGPT on the web",
+    "url": "https://learn.chatgpt.com/docs/web",
+    "checked_on": "2026-10-12",
+    "status": 200,
+    "final_url": "https://learn.chatgpt.com/docs/web"
+  },
+  {
+    "id": "browser",
+    "title": "MDN · Browser",
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/Browser",
+    "final_url": "https://developer.mozilla.org/en-US/docs/Glossary/Browser",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "terminal",
+    "title": "Microsoft · Windows Terminal",
+    "url": "https://learn.microsoft.com/en-us/windows/terminal/",
+    "final_url": "https://learn.microsoft.com/en-us/windows/terminal/",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "cmd",
+    "title": "Microsoft · cmd",
+    "url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmd",
+    "final_url": "https://learn.microsoft.com/en-us/windows-server/administration/windows-commands/cmd",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "powershell",
+    "title": "Microsoft · What is PowerShell?",
+    "url": "https://learn.microsoft.com/en-us/powershell/scripting/overview",
+    "final_url": "https://learn.microsoft.com/en-us/powershell/scripting/overview?view=powershell-7.6",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "ide",
+    "title": "OpenAI · IDE extension",
+    "url": "https://learn.chatgpt.com/docs/codex/ide",
+    "final_url": "https://learn.chatgpt.com/docs/codex/ide",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "context",
+    "title": "OpenAI · Conversation state",
+    "url": "https://developers.openai.com/api/docs/guides/conversation-state",
+    "checked_on": "2026-10-12",
+    "status": 200,
+    "final_url": "https://developers.openai.com/api/docs/guides/conversation-state"
+  },
+  {
+    "id": "memories",
+    "title": "OpenAI · Memories",
+    "url": "https://learn.chatgpt.com/docs/customization/memories",
+    "final_url": "https://learn.chatgpt.com/docs/customization/memories",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "compaction",
+    "title": "OpenAI · Compaction",
+    "url": "https://developers.openai.com/api/docs/guides/compaction",
+    "final_url": "https://developers.openai.com/api/docs/guides/compaction",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "effort",
+    "title": "OpenAI · Reasoning models",
+    "url": "https://developers.openai.com/api/docs/guides/reasoning",
+    "checked_on": "2026-10-12",
+    "status": 200,
+    "final_url": "https://developers.openai.com/api/docs/guides/reasoning"
+  },
+  {
+    "id": "api",
+    "title": "MDN · API",
+    "url": "https://developer.mozilla.org/en-US/docs/Glossary/API",
+    "final_url": "https://developer.mozilla.org/en-US/docs/Glossary/API",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "quickstart",
+    "title": "OpenAI · Developer quickstart",
+    "url": "https://developers.openai.com/api/docs/quickstart",
+    "checked_on": "2026-10-12",
+    "status": 200,
+    "final_url": "https://developers.openai.com/api/docs/quickstart"
+  },
+  {
+    "id": "mcp",
+    "title": "MCP · Introduction",
+    "url": "https://modelcontextprotocol.io/docs/getting-started/intro",
+    "final_url": "https://modelcontextprotocol.io/docs/2026-07-28/getting-started/intro",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "mcpserver",
+    "title": "OpenAI · Docs MCP",
+    "url": "https://developers.openai.com/resources/docs-mcp",
+    "final_url": "https://developers.openai.com/resources/docs-mcp",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "skills",
+    "title": "OpenAI · Skills",
+    "url": "https://developers.openai.com/plugins/concepts/skills",
+    "final_url": "https://developers.openai.com/plugins/concepts/skills",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "buildskills",
+    "title": "OpenAI · Build skills",
+    "url": "https://learn.chatgpt.com/docs/build-skills",
+    "final_url": "https://learn.chatgpt.com/docs/build-skills",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "plugins",
+    "title": "OpenAI · Skills & Plugins",
+    "url": "https://learn.chatgpt.com/docs/skills-and-plugins",
+    "final_url": "https://learn.chatgpt.com/docs/skills-and-plugins",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "rules",
+    "title": "OpenAI · AGENTS.md",
+    "url": "https://learn.chatgpt.com/docs/agent-configuration/agents-md",
+    "final_url": "https://learn.chatgpt.com/docs/agent-configuration/agents-md",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "git",
+    "title": "Git · Tutorial",
+    "url": "https://git-scm.com/docs/gittutorial",
+    "final_url": "https://git-scm.com/docs/gittutorial",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "permissions",
+    "title": "OpenAI · Agent approvals & security",
+    "url": "https://learn.chatgpt.com/docs/agent-approvals-security",
+    "final_url": "https://learn.chatgpt.com/docs/agent-approvals-security",
+    "status": 200,
+    "checked_on": "2026-10-12"
+  },
+  {
+    "id": "glossary",
+    "title": "OpenAI · Glossary",
+    "url": "https://learn.chatgpt.com/docs/glossary",
+    "checked_on": "2026-10-12",
+    "status": 200,
+    "final_url": "https://learn.chatgpt.com/docs/glossary"
+  }
+]
