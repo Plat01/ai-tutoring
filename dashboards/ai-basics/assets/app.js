@@ -10,9 +10,10 @@ $('dictionary-grid').innerHTML = TERMS.map((t,i)=>`<article class="term" id="ter
   <h3>${escapeHTML(t.title)}</h3><p class="term-en">${escapeHTML(t.en)}</p>
   <p class="term-definition">${escapeHTML(t.definition)}</p><div class="example"><strong>ПРИМЕР</strong>${escapeHTML(t.example)}</div>
   <div class="difference"><strong>С чем не путать</strong>${escapeHTML(t.difference)}</div>
+  ${t.extra?`<details class="term-details"><summary>${escapeHTML(t.extra.title)}</summary><p>${escapeHTML(t.extra.body)}</p></details>`:''}
   <div class="related">${t.related.map(id=>`<a href="#term-${id}">${escapeHTML(termById[id].title)} →</a>`).join('')}</div>
   <div class="sources" aria-label="Официальные источники">${sourceLinks(t.sources)}</div></article>`).join('');
-const searchText = TERMS.map(t=>normalize([t.title,t.en,t.definition,t.example,t.difference,GROUPS[t.group]].join(' ')));
+const searchText = TERMS.map(t=>normalize([t.title,t.en,t.definition,t.example,t.difference,t.extra?.body||'',GROUPS[t.group]].join(' ')));
 $('filters').innerHTML = Object.entries({all:'Все понятия',...GROUPS}).map(([id,name])=>`<button class="btn ${id==='all'?'btn-primary':'btn-outline'}" data-filter="${id}" aria-pressed="${id==='all'}">${name}</button>`).join('');
 function filterTerms() {
   const query = normalize($('search').value.trim()); let visible=0;

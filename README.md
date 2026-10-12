@@ -4,7 +4,7 @@
 
 Работающие дашборды: [каталог GitHub Pages](https://Plat01.github.io/ai-tutoring/).
 
-- [Азбука ИИ: от чата до агента](https://Plat01.github.io/ai-tutoring/dashboards/ai-basics/) — 40 понятий, различия, официальные источники и упражнения для взрослого новичка.
+- [Азбука ИИ: от чата до агента](https://Plat01.github.io/ai-tutoring/dashboards/ai-basics/) — 41 понятие, различия, официальные источники и упражнения для взрослого новичка.
 
 Порядок публикации: [GitHub Pages](docs/github-pages.md).
 

@@ -3,6 +3,7 @@ html[data-theme=luxury]{--color-base-content:oklch(.93 .009 83);--color-primary:
 html[data-theme=silk]{--color-primary:oklch(.43 .06 75);--color-primary-content:oklch(.98 .005 75);--color-secondary:oklch(.55 .09 242);--color-accent:oklch(.52 .09 160)}
 .sources{font-size:12px}.difference{font-size:13px}.term-en{font-size:13px}.figure-panel figcaption{font-size:12px}svg .svg-small{font-size:13px}
 .btn.btn-primary{color:var(--color-primary-content);background:var(--color-primary)}
+.term-details{margin-top:16px;font-size:13px;line-height:1.7}.term-details summary{cursor:pointer;color:var(--color-primary)}.term-details summary:focus-visible{outline:2px solid var(--color-primary);outline-offset:4px}.term-details p{white-space:pre-line;margin-top:12px}
 @media(max-width:820px){.sidebar-bottom{grid-column:2;grid-row:1}}
 @media(min-width:1450px){main{padding-left:64px;padding-right:64px}}
 @media(max-width:1100px){.layout{grid-template-columns:205px minmax(0,1fr)}.sidebar{padding:28px 18px}main{padding:32px 28px}.hero-grid{gap:20px;grid-template-columns:minmax(0,1.1fr) minmax(0,1fr)}h1{font-size:40px}.lead{font-size:16px}.term{padding:20px}.term h3{font-size:21px}.comparison-card{padding:18px}.comparison-card h3{font-size:20px}.practice-panel{padding:24px}.route{grid-template-columns:150px minmax(0,1fr)}}
